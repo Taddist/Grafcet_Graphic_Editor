@@ -2,4 +2,7 @@
 Grafcet.Graphic.Editor.edit/
 Grafcet.Graphic.Editor.editor/
 Grafcet.Graphic.Editor.tests/
-
+Grafcet.aux
+Grafcet.log
+Grafcet.synctex.gz
+Grafcet.tex

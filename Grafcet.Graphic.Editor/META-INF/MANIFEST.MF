@@ -9,7 +9,10 @@ Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: GrafcetP,
  GrafcetP.impl,
- GrafcetP.util
+ GrafcetP.util,
+ ensias.grafcet.sirius.Grafcet,
+ ensias.grafcet.sirius.Grafcet.impl,
+ ensias.grafcet.sirius.Grafcet.util
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.emf.ecore;visibility:=reexport
 Bundle-ActivationPolicy: lazy

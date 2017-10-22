@@ -5,7 +5,8 @@
     importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
     operationReflection="true" importOrganizing="true">
   <foreignModel>Grafcet.ecore</foreignModel>
-  <genPackages prefix="GrafcetP" disposableProviderFactory="true" ecorePackage="Grafcet.ecore#/0">
+  <genPackages prefix="Grafcet" basePackage="ensias.grafcet.sirius" disposableProviderFactory="true"
+      ecorePackage="Grafcet.ecore#/0">
     <genClasses image="false" ecoreClass="Grafcet.ecore#/0/LocatedElement">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Grafcet.ecore#/0/LocatedElement/location"/>
     </genClasses>

@@ -10,7 +10,7 @@
       <!-- @generated Grafcet -->
       <package
             uri="http://Grafcet.fr"
-            class="GrafcetP.GrafcetPPackage"
+            class="ensias.grafcet.sirius.Grafcet.GrafcetPackage"
             genModel="model/Grafcet.genmodel"/>
    </extension>
 

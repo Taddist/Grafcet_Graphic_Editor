@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<GrafcetP:Grafcet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:GrafcetP="http://Grafcet.fr" xmi:id="_J86RMLQoEee2qcShdYp9VQ" location="Ensias" name="Testing">
-  <elements xsi:type="GrafcetP:Step" xmi:id="_CJgXkLQuEee2qcShdYp9VQ" location="" name="Step1" isInitial="true" action="Do Step1"/>
-  <elements xsi:type="GrafcetP:Step" xmi:id="_Kk-vELQuEee2qcShdYp9VQ" name="Step 2" action="Do step 2"/>
-  <elements xsi:type="GrafcetP:Transition" xmi:id="_QTLoALQuEee2qcShdYp9VQ" location="" name="positive" condition="if n>0" incomingConnections="_CJgXkLQuEee2qcShdYp9VQ" outgoingConnections="_Kk-vELQuEee2qcShdYp9VQ"/>
-</GrafcetP:Grafcet>
+<Grafcet:Grafcet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Grafcet="http://Grafcet.fr" xmi:id="_J86RMLQoEee2qcShdYp9VQ" location="Ensias" name="Testing" connections="_QTLoALQuEee2qcShdYp9VQ">
+  <elements xsi:type="Grafcet:Step" xmi:id="_CJgXkLQuEee2qcShdYp9VQ" location="" name="Step1" isInitial="true" action="Do Step1"/>
+  <elements xsi:type="Grafcet:Step" xmi:id="_Kk-vELQuEee2qcShdYp9VQ" name="Step 2" action="Do step 2"/>
+  <elements xsi:type="Grafcet:Transition" xmi:id="_QTLoALQuEee2qcShdYp9VQ" location="" name="positive" condition="if n>0" incomingConnections="_CJgXkLQuEee2qcShdYp9VQ" outgoingConnections="_Kk-vELQuEee2qcShdYp9VQ"/>
+</Grafcet:Grafcet>

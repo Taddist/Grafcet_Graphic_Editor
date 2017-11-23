@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated Grafcet -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="ensias.grafcet.sirius.Grafcet.presentation.GrafcetModelWizardID"
+            name="%_UI_GrafcetModelWizard_label"
+            class="ensias.grafcet.sirius.Grafcet.presentation.GrafcetModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/GrafcetModelFile.gif">
+         <description>%_UI_GrafcetModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated Grafcet -->
+      <editor
+            id="ensias.grafcet.sirius.Grafcet.presentation.GrafcetEditorID"
+            name="%_UI_GrafcetEditor_label"
+            icon="icons/full/obj16/GrafcetModelFile.gif"
+            extensions="grafcet"
+            class="ensias.grafcet.sirius.Grafcet.presentation.GrafcetEditor"
+            contributorClass="ensias.grafcet.sirius.Grafcet.presentation.GrafcetActionBarContributor">
+      </editor>
+   </extension>
+</plugin>
